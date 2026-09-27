@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aussie Personal Forecasting | Your Personal Weather Analyst</title>
     
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -77,6 +74,7 @@
                     <a href="#operating-hours" class="text-slate-300 hover:text-white transition-colors font-medium text-sm">Operating Hours</a>
                     <a href="#why-us" class="text-slate-300 hover:text-white transition-colors font-medium text-sm">Why Analyst vs App</a>
                     <a href="#pricing" class="text-slate-300 hover:text-white transition-colors font-medium text-sm">Pricing Tiers</a>
+                    <a href="#disclaimer" class="text-slate-300 hover:text-white transition-colors font-medium text-sm">Terms & Disclaimer</a>
                     <a href="#booking-form" class="text-slate-300 hover:text-white transition-colors font-medium text-sm">Book Service</a>
                     <a href="#pricing" class="bg-weather-accent hover:bg-yellow-500 text-weather-900 px-5 py-2.5 rounded-full font-semibold transition-all shadow-lg hover:shadow-weather-accent/30 text-sm flex items-center gap-2">
                         <span>Claim Launch Special</span>
@@ -106,7 +104,7 @@
                       <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-weather-accent opacity-75"></span>
                       <span class="relative inline-flex rounded-full h-3 w-3 bg-weather-accent"></span>
                     </span>
-                    <span class="text-xs sm:text-sm font-semibold tracking-wide text-white">Grand Opening Launch Offer: First Daily Briefing 100% Free</span>
+                    <span class="text-xs sm:text-sm font-semibold tracking-wide text-white">Grand Opening Launch Offer: First Daily Email Briefing 100% Free</span>
                 </div>
                 
                 <h1 class="font-heading text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight tracking-tight">
@@ -115,29 +113,36 @@
                 </h1>
                 
                 <p class="text-lg sm:text-2xl text-slate-300 mb-10 font-light max-w-3xl mx-auto leading-relaxed">
-                    Get tailored weather briefings and real-time text updates directly from a human weather analyst looking out for your exact location across Australia.
+                    Direct human meteorological updates, radar checks, and localized event guidance delivered straight to your email inbox.
                 </p>
-                
+
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <a href="#pricing" class="w-full sm:w-auto bg-weather-accent hover:bg-yellow-500 text-weather-900 px-8 py-4 rounded-full font-bold text-lg transition-all shadow-[0_0_25px_rgba(245,158,11,0.4)] hover:-translate-y-0.5 flex items-center justify-center gap-3">
                         <i class="fa-solid fa-gift"></i>
                         <span>Start Free (Was $5)</span>
                     </a>
                     <a href="#demo" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/25 text-white px-8 py-4 rounded-full font-medium text-lg transition-all hover:-translate-y-0.5 flex items-center justify-center gap-2">
-                        <span>See SMS Demo</span>
-                        <i class="fa-solid fa-mobile-screen"></i>
+                        <span>See Email Demo</span>
+                        <i class="fa-solid fa-envelope"></i>
                     </a>
                 </div>
 
-                <!-- Features badge row -->
+                <div class="mt-4 text-xs sm:text-sm text-slate-300 flex items-center justify-center gap-4 flex-wrap">
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-heart text-emerald-400"></i> 100% Free Trial</span>
+                    <span class="hidden sm:inline text-slate-600">•</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-credit-card-slash text-weather-sky"></i> No Credit Card Required</span>
+                    <span class="hidden sm:inline text-slate-600">•</span>
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-handshake-simple text-weather-accent"></i> No Strings Attached</span>
+                </div>
+
                 <div class="mt-14 pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-slate-300 text-xs sm:text-sm font-medium">
                     <div class="flex items-center justify-center gap-2">
                         <i class="fa-solid fa-bolt text-weather-accent"></i>
                         <span>Synoptic & Radar Checks</span>
                     </div>
                     <div class="flex items-center justify-center gap-2">
-                        <i class="fa-solid fa-comments text-weather-sky"></i>
-                        <span>Text & Email Updates</span>
+                        <i class="fa-solid fa-envelope-open-text text-weather-sky"></i>
+                        <span>100% Email-Based Updates</span>
                     </div>
                     <div class="flex items-center justify-center gap-2">
                         <i class="fa-solid fa-map-location-dot text-emerald-400"></i>
@@ -157,10 +162,10 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div class="text-center mb-16">
-                <span class="text-weather-blue font-semibold text-sm tracking-wider uppercase">Direct SMS Assistance</span>
-                <h2 class="font-heading text-3xl sm:text-5xl font-bold text-weather-900 mt-2 mb-4">How Personal Weather Analysis Works</h2>
+                <span class="text-weather-blue font-semibold text-sm tracking-wider uppercase">Direct Email Assistance</span>
+                <h2 class="font-heading text-3xl sm:text-5xl font-bold text-weather-900 mt-2 mb-4">How Personal Email Weather Analysis Works</h2>
                 <div class="w-20 h-1.5 bg-weather-blue mx-auto rounded-full mb-6"></div>
-                <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">Got clouds hovering over your event venue or golf course? Simply send a text message and receive direct human insight based on synoptic pressure charts, radar imagery, and atmospheric models.</p>
+                <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">Got clouds hovering over your event venue or golf course? Simply send a quick email inquiry and receive direct human insight based on synoptic pressure charts, radar imagery, and atmospheric models.</p>
             </div>
 
             <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
@@ -171,96 +176,104 @@
                         <div class="flex-shrink-0 w-12 h-12 bg-weather-blue/10 text-weather-blue rounded-xl flex items-center justify-center text-xl font-bold">1</div>
                         <div>
                             <h3 class="font-heading text-xl font-bold text-weather-900 mb-2">Select Your Coverage Tier</h3>
-                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">Start with our <strong>Free Trial</strong> or upgrade to Event or VIP passes based on the amount of daily text queries you require.</p>
+                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">Start with our <strong>Free Trial</strong> or upgrade to Event or VIP passes based on the number of daily email updates you require.</p>
                         </div>
                     </div>
 
                     <div class="flex gap-5 items-start p-6 rounded-2xl bg-slate-50 border border-slate-100 transition-all hover:bg-slate-100/80">
                         <div class="flex-shrink-0 w-12 h-12 bg-weather-blue/10 text-weather-blue rounded-xl flex items-center justify-center text-xl font-bold">2</div>
                         <div>
-                            <h3 class="font-heading text-xl font-bold text-weather-900 mb-2">Receive Your Morning Analysis</h3>
-                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">Get a customized breakdown of the upcoming weather conditions specifically tailored to your exact suburb or venue location.</p>
+                            <h3 class="font-heading text-xl font-bold text-weather-900 mb-2">Receive Your Morning Email Briefing</h3>
+                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">Get a customized breakdown of the upcoming weather conditions delivered directly to your email inbox, tailored to your exact suburb or venue location.</p>
                         </div>
                     </div>
 
                     <div class="flex gap-5 items-start p-6 rounded-2xl bg-slate-50 border border-slate-100 transition-all hover:bg-slate-100/80">
                         <div class="flex-shrink-0 w-12 h-12 bg-weather-accent/15 text-weather-accent rounded-xl flex items-center justify-center text-xl font-bold">3</div>
                         <div>
-                            <h3 class="font-heading text-xl font-bold text-weather-900 mb-2">Text Me Whenever You Need</h3>
-                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">Notice unexpected rain clouds? Text your Personal Weather Analyst directly. I'll inspect synoptic charts, live Doppler radar, and local surface obs to tell you precisely what to expect.</p>
+                            <h3 class="font-heading text-xl font-bold text-weather-900 mb-2">Email Me Whenever You Need</h3>
+                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">Notice unexpected rain clouds? Send a quick email to your Personal Weather Analyst. I'll inspect synoptic charts, live Doppler radar, and local surface obs to tell you precisely what to expect.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- iPhone SMS Mockup Section -->
+                <!-- Modern Email Thread UI Mockup -->
                 <div id="how-it-works" class="w-full lg:w-1/2 flex justify-center relative py-4">
                     <div class="absolute inset-0 bg-gradient-to-tr from-weather-blue/15 to-weather-accent/15 rounded-full transform rotate-6 scale-90 blur-3xl"></div>
                     
-                    <!-- Clean Proportional Phone Mockup -->
-                    <div class="relative w-full max-w-[330px] sm:max-w-[350px] bg-slate-900 border-[6px] border-slate-800 rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col h-[520px] z-10 ring-1 ring-white/15">
+                    <div class="relative w-full max-w-[480px] bg-white border border-slate-200 rounded-3xl shadow-2xl overflow-hidden flex flex-col z-10">
                         
-                        <!-- Subtle Top Speaker Bar -->
-                        <div class="w-20 h-3 bg-slate-950 rounded-full absolute top-2 left-1/2 transform -translate-x-1/2 z-30 flex items-center justify-center">
-                            <div class="w-8 h-1 bg-slate-800 rounded-full"></div>
+                        <!-- Email Header Bar -->
+                        <div class="bg-weather-900 px-5 py-4 flex items-center justify-between text-white border-b border-white/10">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+                                <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                                <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                                <span class="text-xs text-slate-300 font-medium ml-2">Inbox — Mail App</span>
+                            </div>
+                            <span class="text-xs font-semibold text-weather-sky flex items-center gap-1.5">
+                                <i class="fa-solid fa-shield-halved text-xs"></i> Verified Analyst
+                            </span>
                         </div>
 
-                        <!-- SMS Header - 3 Column Centered Layout -->
-                        <div class="bg-slate-100/95 backdrop-blur-md pt-7 pb-2.5 px-4 grid grid-cols-3 items-center border-b border-slate-200 z-20">
-                            <!-- Left: Back link -->
-                            <div class="text-blue-500 flex items-center gap-1 text-xs font-medium">
-                                <i class="fa-solid fa-chevron-left text-[10px]"></i>
-                                <span>Messages</span>
-                            </div>
+                        <div class="p-5 sm:p-6 space-y-4 text-xs sm:text-sm bg-slate-50/50">
                             
-                            <!-- Center: Contact Info (Perfectly Centered) -->
-                            <div class="flex flex-col items-center justify-center text-center">
-                                <div class="w-8 h-8 bg-gradient-to-br from-weather-900 to-weather-700 rounded-full flex items-center justify-center text-weather-accent mb-0.5 shadow-sm border border-slate-200">
-                                    <i class="fa-solid fa-cloud-sun-rain text-xs"></i>
-                                </div>
-                                <span class="text-[11px] font-bold text-slate-900 tracking-tight leading-tight">Aussie Analyst</span>
-                                <span class="text-[9px] text-emerald-600 font-medium flex items-center gap-1">
-                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                                    Active Duty
-                                </span>
-                            </div>
-                            
-                            <!-- Right: Info Button -->
-                            <div class="text-right text-blue-500">
-                                <i class="fa-solid fa-circle-info text-sm"></i>
-                            </div>
-                        </div>
-                        
-                        <!-- SMS Messages Thread -->
-                        <div class="flex-1 p-3.5 overflow-y-auto flex flex-col gap-3 bg-slate-50 text-xs">
-                            <div class="text-center text-[10px] text-slate-400 font-semibold my-0.5 uppercase tracking-wider">Today 2:30 PM</div>
-
-                            <!-- User Message -->
-                            <div class="flex flex-col items-end">
-                                <div class="bg-blue-500 text-white px-3.5 py-2 rounded-2xl rounded-tr-xs max-w-[88%] shadow-sm leading-relaxed text-[12px]">
-                                    i see some ominous clouds north of me, are they likely gonna develop rain?
-                                </div>
-                                <span class="text-[8px] text-slate-400 mt-1 mr-1">Delivered</span>
+                            <!-- Subject Line -->
+                            <div class="border-b border-slate-200 pb-3">
+                                <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Subject</div>
+                                <div class="font-heading font-bold text-weather-900 text-sm sm:text-base">Re: Quick weather check for Cronulla venue</div>
                             </div>
 
-                            <!-- Analyst Reply -->
-                            <div class="flex flex-col items-start mt-0.5">
-                                <div class="bg-slate-200/90 text-slate-900 px-3.5 py-2.5 rounded-2xl rounded-tl-xs max-w-[92%] shadow-sm leading-relaxed text-[12px] border border-slate-300/40">
-                                    Hey mate, synoptic pressure charts and radar show a localized trough line arriving in ~25 mins. Light rain & gust front expected. Safe to head back outside 5 mins after it passes!
+                            <!-- Client Inquiry Email Card -->
+                            <div class="bg-white p-4 rounded-2xl border border-slate-200 shadow-sm space-y-2">
+                                <div class="flex justify-between items-start">
+                                    <div class="flex items-center gap-2">
+                                        <div class="w-7 h-7 rounded-full bg-slate-200 text-slate-700 font-bold flex items-center justify-center text-xs">JS</div>
+                                        <div>
+                                            <div class="font-bold text-weather-900 text-xs">John Smith &lt;john@example.com&gt;</div>
+                                            <div class="text-[10px] text-slate-400">To: Aussie Personal Forecasting</div>
+                                        </div>
+                                    </div>
+                                    <span class="text-[10px] text-slate-400">Today 2:30 PM</span>
                                 </div>
-                                <span class="text-[8px] text-slate-400 mt-1 ml-1 flex items-center gap-1">
-                                    <i class="fa-solid fa-check-double text-blue-500"></i> Verified by Weather Analyst
-                                </span>
+                                <p class="text-slate-600 text-xs leading-relaxed pt-1">
+                                    Hi Analyst, I see some ominous dark clouds building to the north of our outdoor venue in Cronulla. Are they likely to bring heavy rain or force us inside during the next hour?
+                                </p>
                             </div>
+
+                            <!-- Analyst Email Reply Card -->
+                            <div class="bg-gradient-to-br from-slate-900 to-weather-900 text-white p-4 sm:p-5 rounded-2xl border border-weather-blue/30 shadow-md space-y-2">
+                                <div class="flex justify-between items-start">
+                                    <div class="flex items-center gap-2">
+                                        <div class="w-7 h-7 rounded-full bg-weather-blue text-white font-bold flex items-center justify-center text-xs">
+                                            <i class="fa-solid fa-cloud-sun-rain text-xs"></i>
+                                        </div>
+                                        <div>
+                                            <div class="font-bold text-white text-xs">Aussie Personal Weather Analyst</div>
+                                            <div class="text-[10px] text-weather-sky">analyst@aussieweather.com.au</div>
+                                        </div>
+                                    </div>
+                                    <span class="text-[10px] text-slate-400">Today 2:38 PM</span>
+                                </div>
+                                <p class="text-slate-200 text-xs leading-relaxed pt-1">
+                                    G'day John, I've just analyzed the latest Doppler radar loop and synoptic pressure surface charts for Cronulla. A localized coastal trough line is moving through, but the main convective cell will pass ~5km to your west.
+                                </p>
+                                <p class="text-slate-200 text-xs leading-relaxed">
+                                    Expect light spotty drizzle for ~15 minutes around 3:10 PM, then clearing. Safe to keep your event setup outdoors!
+                                </p>
+                                <div class="pt-2 border-t border-white/10 flex items-center gap-1.5 text-[10px] text-emerald-400 font-medium">
+                                    <i class="fa-solid fa-circle-check"></i> Verified by Weather Analyst
+                                </div>
+                            </div>
+
                         </div>
 
-                        <!-- SMS Footer Input -->
-                        <div class="bg-slate-100 px-3 py-2 flex items-center gap-2 border-t border-slate-200">
-                            <div class="text-slate-400 pl-1"><i class="fa-solid fa-camera text-base"></i></div>
-                            <div class="flex-1 bg-white border border-slate-300 rounded-full h-8 flex items-center px-3 justify-between shadow-inner">
-                                <span class="text-slate-400 text-xs">iMessage</span>
-                                <i class="fa-solid fa-arrow-up text-[10px] text-white bg-blue-500 rounded-full p-1"></i>
-                            </div>
+                        <!-- Email Action Footer -->
+                        <div class="bg-slate-100 px-5 py-3 border-t border-slate-200 flex justify-between items-center text-xs text-slate-500">
+                            <span class="flex items-center gap-1.5"><i class="fa-solid fa-reply text-weather-blue"></i> Reply by Email</span>
+                            <span class="text-[11px] font-medium text-slate-400">Email Response Quota: 1 Used</span>
                         </div>
+
                     </div>
                 </div>
 
@@ -275,7 +288,7 @@
                 <span class="text-weather-sky font-semibold text-xs tracking-wider uppercase">Transparent Coverage Rules</span>
                 <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white mt-1 mb-3">How Your Weather Updates & Quota Work</h2>
                 <div class="w-16 h-1 bg-weather-accent mx-auto rounded-full mb-4"></div>
-                <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto">We keep update rules simple so you always know what's included automatically and how your daily update quota is used.</p>
+                <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto">We keep update rules simple so you always know what's included automatically and how your daily email update quota is used.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -288,7 +301,7 @@
                         <span class="text-[10px] font-extrabold uppercase tracking-wider text-weather-sky bg-weather-sky/10 px-2.5 py-1 rounded-md inline-block mb-2">Always Included</span>
                         <h3 class="font-heading text-lg font-bold text-white mb-2">Morning & Evening Briefings</h3>
                         <p class="text-slate-300 text-xs leading-relaxed">
-                            Every package includes a detailed weather overview delivered the night before and confirmed first thing on the morning of your event. <strong>Core briefings use zero update quota.</strong>
+                            Every package includes a detailed weather overview delivered by email the night before and confirmed first thing on the morning of your event. <strong>Core email briefings use zero update quota.</strong>
                         </p>
                     </div>
                     <div class="mt-4 pt-3 border-t border-white/10 text-[11px] text-emerald-400 font-semibold flex items-center gap-1.5">
@@ -307,12 +320,12 @@
                         <span class="text-[10px] font-extrabold uppercase tracking-wider text-weather-accent bg-weather-accent/15 px-2.5 py-1 rounded-md inline-block mb-2">Proactive Safety</span>
                         <h3 class="font-heading text-lg font-bold text-white mb-2">Severe Weather & Storm Alerts</h3>
                         <p class="text-slate-300 text-xs leading-relaxed">
-                            If sudden storm cells, lightning, or severe weather fronts head toward your location, your analyst texts you proactively. <strong>Proactive analyst warnings do NOT count toward your update quota.</strong>
+                            If sudden storm cells, lightning, or severe weather fronts head toward your location, your analyst emails you proactively. <strong>Proactive email warning updates do NOT count toward your update quota.</strong>
                         </p>
                     </div>
                     <div class="mt-4 pt-3 border-t border-white/10 text-[11px] text-weather-accent font-semibold flex items-center gap-1.5">
                         <i class="fa-solid fa-shield-check"></i>
-                        <span>FREE Proactive Alerts</span>
+                        <span>FREE Proactive Email Alerts</span>
                     </div>
                 </div>
 
@@ -320,12 +333,12 @@
                 <div class="bg-weather-800/80 p-6 rounded-2xl border border-white/10 flex flex-col justify-between">
                     <div>
                         <div class="w-10 h-10 rounded-xl bg-weather-blue/20 text-weather-sky flex items-center justify-center text-lg font-bold mb-4">
-                            <i class="fa-solid fa-comment-dots"></i>
+                            <i class="fa-solid fa-envelope-open"></i>
                         </div>
-                        <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-300 bg-white/10 px-2.5 py-1 rounded-md inline-block mb-2">On-Demand Queries</span>
-                        <h3 class="font-heading text-lg font-bold text-white mb-2">Direct On-Demand Text Inquiries</h3>
+                        <span class="text-[10px] font-extrabold uppercase tracking-wider text-slate-300 bg-white/10 px-2.5 py-1 rounded-md inline-block mb-2">On-Demand Email Queries</span>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Direct On-Demand Email Inquiries</h3>
                         <p class="text-slate-300 text-xs leading-relaxed">
-                            Whenever you text your analyst for specific micro-timing (e.g., <em>"What's the weather looking like in 3 hours 45 mins?"</em>), each response uses <strong>1 update</strong> from your daily quota.
+                            Whenever you email your analyst for specific micro-timing (e.g., <em>"What's the weather looking like in 3 hours 45 mins?"</em>), each detailed reply uses <strong>1 update</strong> from your daily quota.
                         </p>
                     </div>
                     <div class="mt-4 pt-3 border-t border-white/10 text-[11px] text-slate-300 font-semibold flex items-center gap-1.5">
@@ -370,7 +383,7 @@
 
                     <div class="mt-6 pt-6 border-t border-white/10 flex items-center gap-3 text-xs text-slate-400">
                         <i class="fa-solid fa-circle-info text-weather-accent text-sm"></i>
-                        <span>Text updates submitted outside operating hours will be prioritized first thing the next morning.</span>
+                        <span>Email inquiries submitted outside operating hours will be prioritized first thing the next morning.</span>
                     </div>
                 </div>
 
@@ -380,10 +393,10 @@
                         <i class="fa-solid fa-shield-halved"></i> Service Guarantee & Response Policy
                     </div>
                     
-                    <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white">Rapid Text Response with Quota Protection</h2>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-bold text-white">Rapid Email Response with Quota Protection</h2>
                     
                     <p class="text-slate-300 leading-relaxed">
-                        To maintain high-precision, individual weather & atmospheric checks, all incoming text inquiries operate with a standard <strong>30-minute buffer window</strong> during operating hours.
+                        To maintain high-precision, individual weather & atmospheric checks, all incoming email inquiries operate with a standard <strong>30-minute buffer window</strong> during operating hours.
                     </p>
 
                     <div class="bg-gradient-to-r from-weather-blue/20 to-transparent p-6 rounded-2xl border-l-4 border-weather-blue bg-weather-800/40">
@@ -392,18 +405,18 @@
                             Fair Play Update Quota Protection
                         </h4>
                         <p class="text-sm text-slate-300 leading-relaxed">
-                            <strong>Disclaimer:</strong> Response times may vary slightly during sudden peak weather events. If my text reply is ever unreasonably delayed beyond normal expectations, <strong>that text request will NOT count towards your daily update quota</strong>.
+                            <strong>Disclaimer:</strong> Response times may vary slightly during sudden peak weather events. If my email reply is ever unreasonably delayed beyond normal expectations, <strong>that email request will NOT count towards your daily update quota</strong>.
                         </p>
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                         <div class="flex items-center gap-3 text-sm text-slate-200">
                             <i class="fa-solid fa-check text-emerald-400"></i>
-                            <span>Guaranteed human review</span>
+                            <span>Guaranteed human analyst review</span>
                         </div>
                         <div class="flex items-center gap-3 text-sm text-slate-200">
                             <i class="fa-solid fa-check text-emerald-400"></i>
-                            <span>No bot auto-generated noise</span>
+                            <span>No automated bot responses</span>
                         </div>
                     </div>
                 </div>
@@ -442,10 +455,10 @@
                 <!-- Feature 3 -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-lg transition-all">
                     <div class="w-12 h-12 bg-emerald-500/10 text-emerald-600 rounded-xl flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-comment-dots"></i>
+                        <i class="fa-solid fa-envelope-open-text"></i>
                     </div>
-                    <h3 class="font-heading text-xl font-bold text-weather-900 mb-3">Plain English Guidance</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">No confusing meteorological jargon. Just straight-to-the-point answers on timing, wind strength, and rain likelihood.</p>
+                    <h3 class="font-heading text-xl font-bold text-weather-900 mb-3">Plain English Email Guidance</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">No confusing meteorological jargon. Just straight-to-the-point email answers on timing, wind strength, and rain likelihood.</p>
                 </div>
             </div>
         </div>
@@ -458,7 +471,7 @@
                 <span class="text-weather-blue font-semibold text-sm tracking-wider uppercase">Package Tiers</span>
                 <h2 class="font-heading text-3xl sm:text-5xl font-bold text-weather-900 mt-2 mb-4">Choose Your Weather Package</h2>
                 <div class="w-20 h-1.5 bg-weather-blue mx-auto rounded-full mb-6"></div>
-                <p class="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto">From free trial morning briefings to full event coverage with generous daily text query quotas.</p>
+                <p class="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto">From free trial morning briefings to full event coverage with generous daily email query quotas.</p>
             </div>
 
             <!-- 4 Tiers Grid -->
@@ -473,26 +486,30 @@
                         <h3 class="font-heading text-lg font-bold text-weather-900 mb-1">Starter Pass</h3>
                         <p class="text-xs text-slate-500 mb-4">Perfect for trying the service</p>
                         
-                        <div class="flex items-baseline gap-2 mb-4 pb-4 border-b border-slate-200">
+                        <div class="flex items-baseline gap-2 mb-2 pb-2 border-b border-slate-200">
                             <span class="text-3xl font-extrabold text-emerald-600">FREE</span>
                             <span class="text-xs text-slate-400 line-through">Was $5</span>
+                        </div>
+
+                        <div class="text-[11px] font-semibold text-emerald-700 bg-emerald-100/70 py-1 px-2.5 rounded-lg text-center mb-4 border border-emerald-200">
+                            <i class="fa-solid fa-circle-check text-emerald-600 mr-1"></i> No Credit Card • No Strings Attached
                         </div>
 
                         <div class="bg-emerald-50 rounded-xl p-3 mb-6 border border-emerald-100">
                             <span class="text-xs font-semibold text-emerald-800 flex items-center gap-1.5">
                                 <i class="fa-solid fa-circle-check text-emerald-500"></i>
-                                Quota: Up to 3 updates / day
+                                Quota: Up to 3 email updates / day
                             </span>
                         </div>
 
                         <ul class="space-y-3 text-xs text-slate-600 mb-6">
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
-                                <span>Detailed Morning Briefing</span>
+                                <span>Detailed Morning Email Briefing</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
-                                <span>Up to 3 text updates/queries per day</span>
+                                <span>Up to 3 email updates/queries per day</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
@@ -500,7 +517,7 @@
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-emerald-500 mt-0.5"></i>
-                                <span>Quota protection guarantee</span>
+                                <span>Zero risk, zero obligation</span>
                             </li>
                         </ul>
                     </div>
@@ -528,7 +545,7 @@
                         <div class="bg-amber-50 rounded-xl p-3 mb-6 border border-amber-200">
                             <span class="text-xs font-bold text-amber-900 flex items-center gap-1.5">
                                 <i class="fa-solid fa-bolt text-weather-accent"></i>
-                                Quota: Up to 12 updates / day
+                                Quota: Up to 12 email updates / day
                             </span>
                         </div>
 
@@ -539,11 +556,11 @@
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-weather-accent mt-0.5"></i>
-                                <span><strong>Up to 12 text updates/day</strong></span>
+                                <span><strong>Up to 12 email updates/day</strong></span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-weather-accent mt-0.5"></i>
-                                <span>Priority synoptic & radar updates</span>
+                                <span>Priority synoptic & radar email checks</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-weather-accent mt-0.5"></i>
@@ -571,7 +588,7 @@
                         <div class="bg-weather-800 rounded-xl p-3 mb-6 border border-white/10">
                             <span class="text-xs font-bold text-weather-sky flex items-center gap-1.5">
                                 <i class="fa-solid fa-star text-weather-accent"></i>
-                                Quota: Up to 30 updates / day
+                                Quota: Up to 30 email updates / day
                             </span>
                         </div>
 
@@ -582,11 +599,11 @@
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-weather-sky mt-0.5"></i>
-                                <span><strong>Up to 30 text updates/day</strong></span>
+                                <span><strong>Up to 30 email updates/day</strong></span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-weather-sky mt-0.5"></i>
-                                <span>Priority text updates & weather checks</span>
+                                <span>Priority email updates & weather checks</span>
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-weather-sky mt-0.5"></i>
@@ -613,7 +630,7 @@
                         <div class="bg-slate-200/60 rounded-xl p-3 mb-6 border border-slate-300/50">
                             <span class="text-xs font-bold text-slate-700 flex items-center gap-1.5">
                                 <i class="fa-solid fa-sliders text-weather-blue"></i>
-                                Tailored Update Quota & Support
+                                Tailored Email Quota & Support
                             </span>
                         </div>
 
@@ -632,7 +649,7 @@
                             </li>
                             <li class="flex items-start gap-2">
                                 <i class="fa-solid fa-check text-weather-blue mt-0.5"></i>
-                                <span>Dedicated email & SMS support line</span>
+                                <span>Dedicated priority email line</span>
                             </li>
                         </ul>
                     </div>
@@ -648,14 +665,55 @@
         </div>
     </section>
 
+    <!-- NEW LEGAL DISCLAIMER & LIABILITY NOTICE SECTION -->
+    <section id="disclaimer" class="py-16 bg-slate-900 text-slate-300 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-weather-800/90 rounded-3xl p-6 sm:p-10 border border-slate-700 shadow-xl relative overflow-hidden">
+                <div class="absolute -top-12 -right-12 w-40 h-40 bg-weather-accent/10 rounded-full blur-3xl pointer-events-none"></div>
+                
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-2xl flex-shrink-0">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-xl sm:text-2xl text-white">Weather Variability & Legal Liability Notice</h3>
+                        <p class="text-xs text-slate-400">Important terms regarding weather predictions, event planning, and non-liability</p>
+                    </div>
+                </div>
+
+                <div class="space-y-4 text-xs sm:text-sm leading-relaxed text-slate-300">
+                    <p>
+                        <strong>1. Nature of Weather Forecasting:</strong> Weather forecasting, atmospheric analysis, radar interpretation, and synoptic modeling are observational sciences based on probabilities and meteorological data feeds. Weather conditions can change rapidly, unexpectedly, and localized micro-climates may vary significantly from regional trends without prior warning.
+                    </p>
+                    <p>
+                        <strong>2. Limitation of Liability & No Financial Responsibility:</strong> All briefings, email updates, radar observations, and advisory opinions provided by Aussie Personal Forecasting are offered strictly for informational and observational purposes. Aussie Personal Forecasting, its analysts, contractors, and owners shall <strong>NOT be held liable under any circumstances</strong> for any direct, indirect, incidental, punitive, or consequential losses, damages, expenses, cancellation fees, venue expenses, equipment damages, personal injuries, or financial losses incurred as a result of any decisions or alterations made to your events, schedules, or personal plans based on our forecasts or guidance.
+                    </p>
+                    <p>
+                        <strong>3. Client Responsibility:</strong> Clients and event organizers remain solely and fully responsible for conducting their own safety evaluations, carrying appropriate insurance policies (e.g., event cancellation or weather insurance), and making all final operational decisions regarding outdoor setups, safety protocols, and cancellations.
+                    </p>
+                </div>
+
+                <div class="mt-6 pt-6 border-t border-slate-700 flex items-center gap-2 text-xs text-amber-400 font-medium">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span>By utilizing Aussie Personal Forecasting services or submitting a booking request, you acknowledge and agree to these terms.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="booking-form" class="py-20 bg-slate-100 border-t border-slate-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div class="text-center mb-12">
                 <span class="text-weather-blue font-semibold text-xs tracking-wider uppercase">Direct Reservation</span>
-                <h2 class="font-heading text-3xl sm:text-4xl font-bold text-weather-900 mt-1 mb-3">Book Your Weather Coverage</h2>
+                <h2 class="font-heading text-3xl sm:text-4xl font-bold text-weather-900 mt-1 mb-3">Book Your Email Weather Coverage</h2>
                 <div class="w-16 h-1 bg-weather-accent mx-auto rounded-full mb-4"></div>
-                <p class="text-slate-600 text-sm sm:text-base">Select your desired package and provide your event details below. I'll personally confirm your coverage schedule.</p>
+                <p class="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto">Select your desired package and provide your event details below. All updates will be delivered directly to your primary email address.</p>
+
+                <div class="mt-4 inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-900 px-4 py-2 rounded-xl text-xs font-medium">
+                    <i class="fa-solid fa-circle-info text-weather-blue text-sm"></i>
+                    <span><strong>No payment taken today:</strong> Submitting a request is 100% free with no obligation. If a paid package applies, we will contact you directly regarding payment options before confirming.</span>
+                </div>
             </div>
 
             <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-xl border border-slate-200">
@@ -667,16 +725,26 @@
                             <input type="text" name="Name" required placeholder="e.g. John Smith" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm">
                         </div>
                         <div>
-                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Email Address *</label>
+                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Primary Email Address * (For Briefings & Updates)</label>
                             <input type="email" name="Email" required placeholder="e.g. john@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm">
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Mobile Phone * (For Text Updates)</label>
-                            <input type="tel" name="Phone" required placeholder="e.g. 0400 000 000" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm">
+                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Phone Number (Optional)</label>
+                            <input type="tel" name="Phone" placeholder="e.g. 0400 000 000" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm">
                         </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Communication Preference *</label>
+                            <select name="PreferredContact" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm bg-white font-medium text-slate-800">
+                                <option value="Email Only">Email Updates (Primary Channel)</option>
+                                <option value="Email with Backup Phone Call">Email + Phone Call Backup for Severe Storms</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
                             <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Selected Package *</label>
                             <select id="packageSelect" name="SelectedPackage" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm bg-white font-medium text-slate-800">
@@ -686,13 +754,13 @@
                                 <option value="Custom Quote Request">Custom Package / Custom Calculator Request</option>
                             </select>
                         </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
                             <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Event or Target Location / Suburb *</label>
                             <input type="text" name="Location" required placeholder="e.g. Cronulla, NSW or Yarra Valley, VIC" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm">
                         </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
                             <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Coverage Date(s)</label>
                             <input type="date" id="bookingDate" name="Date" onchange="checkMainFormDate()" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm">
@@ -713,16 +781,29 @@
                         <textarea name="Notes" rows="3" placeholder="Tell me about your planned outdoor activity, specific concerns (e.g., wind sensitivity, rain-outs), or schedule..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm"></textarea>
                     </div>
 
-                    <button type="submit" id="submitBtn" class="w-full bg-weather-accent hover:bg-yellow-500 text-weather-900 font-bold py-4 rounded-xl transition-all shadow-lg hover:shadow-weather-accent/30 text-base flex items-center justify-center gap-3">
-                        <span id="btnText">Submit Reservation Request</span>
-                        <i id="btnIcon" class="fa-solid fa-paper-plane"></i>
-                    </button>
+                    <!-- Terms & Non-Liability Agreement Checkbox -->
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs text-slate-600 flex items-start gap-3">
+                        <input type="checkbox" id="termsCheck" required class="mt-0.5 w-4 h-4 rounded text-weather-blue focus:ring-weather-blue">
+                        <label for="termsCheck" class="cursor-pointer">
+                            I understand and agree that weather forecasting is an observational science. Aussie Personal Forecasting is not liable for weather changes, cancellations, or financial decisions regarding my event (<a href="#disclaimer" class="text-weather-blue underline font-semibold">Read Legal Disclaimer</a>).
+                        </label>
+                    </div>
+
+                    <div>
+                        <button type="submit" id="submitBtn" class="w-full bg-weather-accent hover:bg-yellow-500 text-weather-900 font-bold py-4 rounded-xl transition-all shadow-lg hover:shadow-weather-accent/30 text-base flex items-center justify-center gap-3">
+                            <span id="btnText">Submit Reservation Request</span>
+                            <i id="btnIcon" class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <p class="text-center text-[11px] text-slate-500 mt-2">
+                            <i class="fa-solid fa-lock text-slate-400 mr-1"></i> No immediate payment required. Zero risk & no strings attached.
+                        </p>
+                    </div>
                 </form>
 
                 <div id="successMessage" class="hidden mt-6 p-6 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-2xl text-center">
                     <i class="fa-solid fa-circle-check text-emerald-500 text-3xl mb-2 block"></i>
                     <h3 class="font-heading font-bold text-lg mb-1">Booking Request Received!</h3>
-                    <p class="text-sm text-emerald-700">Your details have been sent directly to your Personal Weather Analyst. I will review your location and contact you shortly!</p>
+                    <p class="text-sm text-emerald-700">Your details have been sent directly to your Personal Weather Analyst. They will review your location and email you shortly!</p>
                 </div>
 
                 <div id="errorMessage" class="hidden mt-6 p-4 bg-rose-50 border border-rose-200 text-rose-800 rounded-2xl text-center text-xs">
@@ -745,7 +826,7 @@
                     </div>
                     <div>
                         <h3 class="font-heading font-bold text-lg sm:text-xl text-white">Custom Weather Coverage Calculator</h3>
-                        <p class="text-xs text-slate-300">Customize dates, query quotas & special options for an instant quote</p>
+                        <p class="text-xs text-slate-300">Customize dates, email query quotas & special options for an instant quote</p>
                     </div>
                 </div>
                 <button type="button" onclick="closeCustomQuoteModal()" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white flex items-center justify-center transition-colors text-lg">
@@ -811,8 +892,8 @@
                         <!-- Daily Query Quota Slider -->
                         <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-2">
                             <div class="flex justify-between items-center">
-                                <label class="text-xs font-bold text-weather-900 uppercase tracking-wider">3. Daily Text Update Allowance</label>
-                                <span id="textsValue" class="text-xs font-bold bg-weather-accent/20 text-amber-800 px-3 py-1 rounded-full">30 Updates / Day</span>
+                                <label class="text-xs font-bold text-weather-900 uppercase tracking-wider">3. Daily Email Update Allowance</label>
+                                <span id="textsValue" class="text-xs font-bold bg-weather-accent/20 text-amber-800 px-3 py-1 rounded-full">30 Email Updates / Day</span>
                             </div>
                             <!-- Smooth continuous slider from 3 to 100 -->
                             <input type="range" id="calcTexts" min="3" max="100" value="30" step="1" oninput="calculateCustomQuote()" class="w-full accent-weather-accent h-2 bg-slate-200 rounded-lg cursor-pointer">
@@ -889,8 +970,8 @@
                                     <span id="quoteDaysSummary" class="font-semibold text-white">1 Day</span>
                                 </div>
                                 <div class="flex justify-between">
-                                    <span class="text-slate-400">Daily Update Allowance:</span>
-                                    <span id="quoteTextsSummary" class="font-semibold text-white">30 Updates / Day</span>
+                                    <span class="text-slate-400">Daily Email Allowance:</span>
+                                    <span id="quoteTextsSummary" class="font-semibold text-white">30 Email Updates / Day</span>
                                 </div>
                                 <div class="flex justify-between">
                                     <span class="text-slate-400">Monitored Locations:</span>
@@ -907,7 +988,7 @@
                         <!-- Enquiry Form inside Modal -->
                         <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm flex-1">
                             <h4 class="font-heading font-bold text-weather-900 text-base mb-1">Send Enquiry & Lock Estimate</h4>
-                            <p class="text-xs text-slate-500 mb-4">Send this custom quote configuration directly to your Personal Analyst.</p>
+                            <p class="text-xs text-slate-500 mb-4">Send this custom quote configuration directly to your Personal Analyst via email.</p>
 
                             <form id="customEnquiryForm" onsubmit="handleCustomEnquirySubmit(event)" class="space-y-3.5">
                                 <div>
@@ -915,7 +996,7 @@
                                 </div>
                                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                     <input type="email" id="custEmail" name="Email" required placeholder="Email Address *" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
-                                    <input type="tel" id="custPhone" name="Phone" required placeholder="Phone Number *" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
+                                    <input type="tel" id="custPhone" name="Phone" placeholder="Phone Number (Optional)" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
                                 </div>
                                 <div>
                                     <input type="text" id="custLocation" name="Location" required placeholder="Event / Job Location or Suburbs *" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
@@ -924,16 +1005,21 @@
                                     <textarea id="custNotes" name="Notes" rows="2" placeholder="Specific weather concerns or event schedule details..." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs"></textarea>
                                 </div>
 
-                                <button type="submit" id="customSubmitBtn" class="w-full bg-weather-accent hover:bg-yellow-500 text-weather-900 font-bold py-3 rounded-xl transition-all shadow-md text-xs sm:text-sm flex items-center justify-center gap-2">
-                                    <span id="customBtnText">Send Custom Enquiry</span>
-                                    <i id="customBtnIcon" class="fa-solid fa-paper-plane"></i>
-                                </button>
+                                <div>
+                                    <button type="submit" id="customSubmitBtn" class="w-full bg-weather-accent hover:bg-yellow-500 text-weather-900 font-bold py-3 rounded-xl transition-all shadow-md text-xs sm:text-sm flex items-center justify-center gap-2">
+                                        <span id="customBtnText">Send Custom Email Enquiry</span>
+                                        <i id="customBtnIcon" class="fa-solid fa-paper-plane"></i>
+                                    </button>
+                                    <p class="text-center text-[10px] text-slate-500 mt-2">
+                                        <i class="fa-solid fa-shield text-emerald-500 mr-1"></i> No payment charged now. We'll email you to discuss details before any payment.
+                                    </p>
+                                </div>
                             </form>
 
                             <div id="customSuccessMsg" class="hidden mt-4 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-2xl text-center text-xs">
                                 <i class="fa-solid fa-circle-check text-emerald-500 text-lg mb-1 block"></i>
                                 <div class="font-bold">Custom Quote Submitted!</div>
-                                <p class="text-[11px] text-emerald-700 mt-1">Your detailed specifications have been emailed to your weather analyst. We will be in touch shortly to confirm!</p>
+                                <p class="text-[11px] text-emerald-700 mt-1">Your detailed specifications have been emailed to your weather analyst. We will be in touch shortly!</p>
                             </div>
 
                             <div id="customErrorMsg" class="hidden mt-4 p-3 bg-rose-50 border border-rose-200 text-rose-800 rounded-2xl text-center text-xs">
@@ -1050,7 +1136,7 @@
 
             // Update badge displays
             document.getElementById('datesDaysBadge').textContent = numDays === 1 ? '1 Day' : numDays + ' Days';
-            document.getElementById('textsValue').textContent = texts === 100 ? '100 (Uncapped) / Day' : texts + ' Updates / Day';
+            document.getElementById('textsValue').textContent = texts === 100 ? '100 (Uncapped) / Day' : texts + ' Email Updates / Day';
             document.getElementById('locationsValue').textContent = locations === 1 ? '1 Location' : locations + ' Locations';
 
             // Show breakdown text below dates
@@ -1118,7 +1204,7 @@
             document.getElementById('quoteTotal').textContent = '$' + totalCost;
             document.getElementById('quoteDailyRate').textContent = '$' + calculatedDailyEquivalent + ' / day';
             document.getElementById('quoteDaysSummary').textContent = numDays + (numDays === 1 ? ' Day' : ' Days');
-            document.getElementById('quoteTextsSummary').textContent = (texts === 100 ? '100 (Uncapped)' : texts) + ' Updates / Day';
+            document.getElementById('quoteTextsSummary').textContent = (texts === 100 ? '100 (Uncapped)' : texts) + ' Email Updates / Day';
             document.getElementById('quoteLocsSummary').textContent = locations + (locations === 1 ? ' Location' : ' Locations');
         }
 
@@ -1153,7 +1239,7 @@
 
             submitBtn.disabled = true;
             submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
-            btnText.textContent = 'Sending Custom Enquiry...';
+            btnText.textContent = 'Sending Custom Email Enquiry...';
             btnIcon.className = 'fa-solid fa-circle-notch animate-spin';
 
             const startDate = document.getElementById('calcStartDate').value;
@@ -1169,10 +1255,11 @@
             if (document.getElementById('addonAudit').checked) addons.push('Rain-Out Audit Report');
 
             const payload = {
-                _subject: `Custom Weather Quote Request (${total}) - ${document.getElementById('custName').value}`,
+                _subject: `Custom Weather Email Quote Request (${total}) - ${document.getElementById('custName').value}`,
                 Name: document.getElementById('custName').value,
                 Email: document.getElementById('custEmail').value,
-                Phone: document.getElementById('custPhone').value,
+                Phone: document.getElementById('custPhone').value || 'Not provided',
+                PreferredContact: 'Email Only',
                 Location: document.getElementById('custLocation').value,
                 EventType: eventType,
                 StartDate: startDate,
@@ -1216,7 +1303,7 @@
                     errorMsg.classList.remove('hidden');
                     submitBtn.disabled = false;
                     submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
-                    btnText.textContent = 'Retry Custom Enquiry';
+                    btnText.textContent = 'Retry Custom Email Enquiry';
                     btnIcon.className = 'fa-solid fa-paper-plane';
                 }
             }
@@ -1279,10 +1366,10 @@
 
             const formData = new FormData(form);
             const data = Object.fromEntries(formData.entries());
-            data._subject = `New Booking Request - ${data.SelectedPackage} (${data.Name})`;
+            data._subject = `New Email Booking Request - ${data.SelectedPackage} (${data.Name})`;
 
             try {
-                const response = await fetch('https://formsubmit.co/ajax/thefunocelot@gmail.com', {
+                const response = await fetch('https://formsubmit.co/ajax/f22a959c5cdbd364e01c460ac027683c', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
