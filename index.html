@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aussie Personal Forecasting | Your Personal Weather Analyst</title>
     
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
     
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -135,6 +138,7 @@
                     <span class="flex items-center gap-1.5"><i class="fa-solid fa-handshake-simple text-weather-accent"></i> No Strings Attached</span>
                 </div>
 
+                <!-- Features badge row -->
                 <div class="mt-14 pt-8 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-slate-300 text-xs sm:text-sm font-medium">
                     <div class="flex items-center justify-center gap-2">
                         <i class="fa-solid fa-bolt text-weather-accent"></i>
@@ -192,7 +196,7 @@
                         <div class="flex-shrink-0 w-12 h-12 bg-weather-accent/15 text-weather-accent rounded-xl flex items-center justify-center text-xl font-bold">3</div>
                         <div>
                             <h3 class="font-heading text-xl font-bold text-weather-900 mb-2">Email Me Whenever You Need</h3>
-                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">Notice unexpected rain clouds? Send a quick email to your Personal Weather Analyst. I'll inspect synoptic charts, live Doppler radar, and local surface obs to tell you precisely what to expect.</p>
+                            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">Notice unexpected rain clouds? Send a quick email to your Personal Weather Analyst. We'll inspect synoptic charts, live Doppler radar, and local surface obs to tell you precisely what to expect.</p>
                         </div>
                     </div>
                 </div>
@@ -250,7 +254,7 @@
                                         </div>
                                         <div>
                                             <div class="font-bold text-white text-xs">Aussie Personal Weather Analyst</div>
-                                            <div class="text-[10px] text-weather-sky">analyst@aussieweather.com.au</div>
+                                            <div class="text-[10px] text-weather-sky">aussieweatherforecasting@gmail.com</div>
                                         </div>
                                     </div>
                                     <span class="text-[10px] text-slate-400">Today 2:38 PM</span>
@@ -665,7 +669,7 @@
         </div>
     </section>
 
-    <!-- NEW LEGAL DISCLAIMER & LIABILITY NOTICE SECTION -->
+    <!-- LEGAL DISCLAIMER & LIABILITY NOTICE SECTION -->
     <section id="disclaimer" class="py-16 bg-slate-900 text-slate-300 border-t border-slate-800">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-weather-800/90 rounded-3xl p-6 sm:p-10 border border-slate-700 shadow-xl relative overflow-hidden">
@@ -732,20 +736,6 @@
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Phone Number (Optional)</label>
-                            <input type="tel" name="Phone" placeholder="e.g. 0400 000 000" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Communication Preference *</label>
-                            <select name="PreferredContact" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm bg-white font-medium text-slate-800">
-                                <option value="Email Only">Email Updates (Primary Channel)</option>
-                                <option value="Email with Backup Phone Call">Email + Phone Call Backup for Severe Storms</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div>
                             <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Selected Package *</label>
                             <select id="packageSelect" name="SelectedPackage" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-sm bg-white font-medium text-slate-800">
                                 <option value="Starter Pass - Free">Starter Pass - FREE (Launch Special)</option>
@@ -803,7 +793,7 @@
                 <div id="successMessage" class="hidden mt-6 p-6 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-2xl text-center">
                     <i class="fa-solid fa-circle-check text-emerald-500 text-3xl mb-2 block"></i>
                     <h3 class="font-heading font-bold text-lg mb-1">Booking Request Received!</h3>
-                    <p class="text-sm text-emerald-700">Your details have been sent directly to your Personal Weather Analyst. They will review your location and email you shortly!</p>
+                    <p class="text-sm text-emerald-700">Your details have been sent directly to your Personal Weather Analyst. We will review your location and email you shortly!</p>
                 </div>
 
                 <div id="errorMessage" class="hidden mt-6 p-4 bg-rose-50 border border-rose-200 text-rose-800 rounded-2xl text-center text-xs">
@@ -994,9 +984,8 @@
                                 <div>
                                     <input type="text" id="custName" name="Name" required placeholder="Your Full Name *" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
                                 </div>
-                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                    <input type="email" id="custEmail" name="Email" required placeholder="Email Address *" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
-                                    <input type="tel" id="custPhone" name="Phone" placeholder="Phone Number (Optional)" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
+                                <div>
+                                    <input type="email" id="custEmail" name="Email" required placeholder="Primary Email Address *" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
                                 </div>
                                 <div>
                                     <input type="text" id="custLocation" name="Location" required placeholder="Event / Job Location or Suburbs *" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-weather-blue focus:outline-none text-xs">
@@ -1258,8 +1247,6 @@
                 _subject: `Custom Weather Email Quote Request (${total}) - ${document.getElementById('custName').value}`,
                 Name: document.getElementById('custName').value,
                 Email: document.getElementById('custEmail').value,
-                Phone: document.getElementById('custPhone').value || 'Not provided',
-                PreferredContact: 'Email Only',
                 Location: document.getElementById('custLocation').value,
                 EventType: eventType,
                 StartDate: startDate,
@@ -1275,7 +1262,7 @@
             const isLocalFile = window.location.protocol === 'file:';
 
             try {
-                const response = await fetch('https://formsubmit.co/ajax/thefunocelot@gmail.com', {
+                const response = await fetch('https://formsubmit.co/ajax/f22a959c5cdbd364e01c460ac027683c', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -1369,7 +1356,7 @@
             data._subject = `New Email Booking Request - ${data.SelectedPackage} (${data.Name})`;
 
             try {
-                const response = await fetch('https://formsubmit.co/ajax/f22a959c5cdbd364e01c460ac027683c', {
+                const response = await fetch('https://formsubmit.co/ajax/thefunocelot@gmail.com', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
